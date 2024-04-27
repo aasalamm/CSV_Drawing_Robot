@@ -3,6 +3,9 @@
 ## Overview
 This project aims to draw shapes based on a CSV file input with coordinates of points in the drawing. Once a file is chosen, the drawing is plotted and the coordinates are passed into an Inverse Kinematics solver to find the angles the motors need to be. This happens for each coordinate until the drawing is complete
 
+## User Interface
+Ask user to pick between available shapes. If shape is not available, it will keep asking until the user gives it a valid shape
+
 ## Drawing 
 Reads all coordinates from CSV file, plots the drawing, and passes coordinantes one by one to Inverse Kinematics Function
 
