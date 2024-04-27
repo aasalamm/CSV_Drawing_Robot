@@ -6,10 +6,10 @@ This project aims to draw shapes based on a CSV file input with coordinates of p
 ## Inverse Kinematics
 Consists of a two DOF RR robot arm.
 
-D = Distance between joint 1 to end effector (pen)
-H = Height of triangle formed (base = D, edges = motor arms)
-Theta 1 = Angle between D and Motor 1 Arm
-Theta 2 = Angle between Motor 1 Arm and Motor 2 Arm
+D = Distance between joint 1 to end effector (pen) <br />
+H = Height of triangle formed (base = D, edges = motor arms) <br />
+Theta 1 = Angle between D and Motor 1 Arm <br />
+Theta 2 = Angle between Motor 1 Arm and Motor 2 Arm 
 
 ## Arduino Control
 Inverse Kinematics outputs angles to write to Arduino Servo Motors
