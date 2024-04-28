@@ -31,10 +31,10 @@ def calculate_angles(x, y):
     phi = np.arctan2(y, x) #radiams
     phi = np.rad2deg(phi) #degrees
 
-    d = np.sqrt((x**2) + (y**2)) #cm
-    h = np.sqrt((link**2) - ((d / 2)**2)) #cm
+    r = np.sqrt((x**2) + (y**2)) #cm
+    h = np.sqrt((link**2) - ((r / 2)**2)) #cm
 
-    theta1 = np.arctan2(h, (d / 2)) #radians
+    theta1 = np.arctan2(h, (r / 2)) #radians
     theta1 = np.rad2deg(theta1) #degrees
 
     theta2 = (90 - theta1) * 2 #degrees
