@@ -15,7 +15,7 @@ Reads all coordinates from CSV file, plots the drawing, and passes coordinantes 
 Consists of a two DOF RR robot arm.
 
 r = Distance between joint 1 to end effector (pen) <br />
-H = Height of triangle formed (base = D, edges = motor arms) <br />
+H = Height of triangle formed (base = r, edges = motor arms) <br />
 Theta 1 = Angle between D and Motor 1 Arm <br />
 Theta 2 = Angle between Motor 1 Arm and Motor 2 Arm 
 
